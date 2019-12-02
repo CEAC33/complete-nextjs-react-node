@@ -27,4 +27,4 @@ npm run dev
 ```
 
 Go to:
-- https://localhost:3000
+- http://localhost:3000

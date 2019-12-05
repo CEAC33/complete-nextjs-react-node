@@ -233,3 +233,39 @@ const Home = () => (
 
 export default Home
 ```
+
+### Functional Components
+
+> Inside `pages` folder, create new file `about.js`
+
+**about.js**
+
+```js
+
+import React from 'react'
+
+// functional component - arrow function
+const About = () => {
+  const message = 'Hello World'
+  return (
+    <h1>Hello About Page - {message}</h1>
+  )
+}
+
+// const About = () => {
+//   const message = 'Hello World'
+//   return React.createElement('h1', null, 'I am genereting this with createElement')
+// }
+
+// unctional component - normal function
+// function About() {
+//   return (
+//     <h1>Hello About Page</h1>
+//   )
+// }
+
+
+export default About
+```
+
+> In Chrome go to http://localhost:3000/about
